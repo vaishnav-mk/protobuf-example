@@ -34,16 +34,14 @@ let data = await fetch("http://localhost:3000/book").then((res) =>
   res.arrayBuffer()
 );
 
-console.log("Before:", Book.decode(Buffer.from(data)))
-
-const postBody = Book.encode(newBook).finish();
+console.log("Before:", Book.decode(Buffer.from(data)));
 
 await fetch("http://localhost:3000/book", {
   method: "POST",
   headers: {
     "Content-Type": "application/octet-stream",
   },
-  body: postBody,
+  body: Book.encode(newBook).finish(),
 });
 
 data = await fetch("http://localhost:3000/book").then((res) =>
