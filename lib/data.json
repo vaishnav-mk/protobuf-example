@@ -1,0 +1,22 @@
+{
+  "oldBook": {
+    "title": "Eloquent JavaScript, Third Edition",
+    "subtitle": "A Modern Introduction to Programming",
+    "author": "Marijn Haverbeke",
+    "published": "1675779708121",
+    "publisher": "No Starch Press",
+    "pages": 472,
+    "description": "JavaScript lies at the heart of almost every modern web application, from social apps like Twitter to browser-based game frameworks like Phaser and Babylon. Though simple for beginners to pick up and play with, JavaScript is a flexible, complex language that you can use to build full-scale applications.",
+    "website": "http://eloquentjavascript.net/"
+  },
+  "newBook": {
+    "title": "The Rust Programming Language",
+    "subtitle": "A book about Rust",
+    "author": "Steve Klabnik and Carol Nichols",
+    "published": "1675779729132",
+    "pages": 400,
+    "publisher": "No Starch Press",
+    "website": "https://doc.rust-lang.org/book/",
+    "description": "A book about Rust"
+  }
+}

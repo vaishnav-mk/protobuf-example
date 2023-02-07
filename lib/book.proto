@@ -1,0 +1,13 @@
+package bookpackage;
+syntax = "proto3";
+
+message Book {
+    string title = 1;
+    optional string subtitle = 2;
+    string author = 3;
+    optional string published = 4;
+    optional string publisher = 5;
+    int32 pages = 6;
+    string description = 7;
+    optional string website = 8;
+}
